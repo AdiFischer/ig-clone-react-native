@@ -14,7 +14,6 @@ import photolist from "../photolist";
 //       .then(data => setPhotoList(data))
 //       .catch(alert)
 //     }, [setPhotoList])
-
 export default function Feed({ navigation }) {
     return (
         <ScrollView style={styles.feed}>
